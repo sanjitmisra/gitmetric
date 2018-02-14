@@ -53,7 +53,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DomainObjects\DomainObjects.csproj">
+    <ProjectReference Include="..\GitMetric.DomainObjects\DomainObjects.csproj">
       <Project>{7963f9d3-12a0-42c5-b96b-5255f76d252f}</Project>
       <Name>DomainObjects</Name>
     </ProjectReference>

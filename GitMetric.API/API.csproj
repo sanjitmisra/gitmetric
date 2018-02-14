@@ -254,11 +254,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DomainObjects\DomainObjects.csproj">
+    <ProjectReference Include="..\GitMetric.DomainObjects\DomainObjects.csproj">
       <Project>{7963f9d3-12a0-42c5-b96b-5255f76d252f}</Project>
       <Name>DomainObjects</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GitMetricsapp.Library\Library.csproj">
+    <ProjectReference Include="..\GitMetric.Library\Library.csproj">
       <Project>{d11dea77-a9fb-407a-aa64-5a0023fa662f}</Project>
       <Name>Library</Name>
     </ProjectReference>

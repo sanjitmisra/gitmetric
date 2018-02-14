@@ -20,7 +20,7 @@ namespace GitMetricsApp.Tests.Controllers
             CommitsController controller = new CommitsController();
 
             // Act
-            IEnumerable<string> result = controller.Get();
+            var result = controller.Get();
 
             // Assert
             Assert.IsNotNull(result);
@@ -36,7 +36,7 @@ namespace GitMetricsApp.Tests.Controllers
             CommitsController controller = new CommitsController();
 
             // Act
-            string result = controller.Get(5);
+            var result = controller.Get("5");
 
             // Assert
             Assert.AreEqual("value", result);

@@ -109,9 +109,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GitMetricsApp\API.csproj">
+    <ProjectReference Include="..\GitMetric.API\API.csproj">
       <Project>{913CAF8E-E304-4C07-B9EF-D3EC84F1A352}</Project>
       <Name>API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GitMetric.DomainObjects\DomainObjects.csproj">
+      <Project>{7963f9d3-12a0-42c5-b96b-5255f76d252f}</Project>
+      <Name>DomainObjects</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
